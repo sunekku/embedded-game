@@ -7,7 +7,7 @@ If you wanna try it out at the risk of incurring brain damage from the lameness 
 So it's a useless game that isn't actually fun to play (I'm pretty sure it's rigged too), but just like Mihoyo, all the budget went into animation. The difference between
 Genshin Impact and this thing is that their animations are actually good, and my game actually runs correctly.
 
-Instructions for people who are gutsy (and perhaps bored) enough to play the game:
+**Instructions for people who are gutsy (and perhaps bored) enough to play the game:**
 
 Press a SW 7-4 for charmander’s move, press a SW 3-0 for pikachu’s move (specific list below)
 
@@ -20,7 +20,7 @@ First pokemon to 0 hp loses, and you will get an end screen for the winner on a 
 Game restarts
 
 
----Charmander moves---
+**---Charmander moves---**
 
 7 Flamethrower - Damage based on attack
 
@@ -31,7 +31,7 @@ Game restarts
 4 Metronome (randomly picks one of the other 3 moves)
 
 
----Pikachu moves---
+**---Pikachu moves---**
 
 3 Thunderbolt - Damage based on attack
 
