@@ -163,27 +163,27 @@ void dragon_rage(){
 	
     draw(PRESX, PRESY, P1X, P1Y, NULL);
     draw(PRESX, PRESY, AX, AY, p1_spr);
-	timeout(200000);
-	wait_for_vsync();
+    timeout(200000);
+    wait_for_vsync();
 
-	timeout(200000);
+    timeout(200000);
     wait_for_vsync();
 
     draw(PRESX, PRESY, P1X, P1Y, p1_spr);
     draw(PRESX, PRESY, AX, AY, NULL);
-	draw(PRESX, PRESY, P2X, P2Y, NULL);
-	timeout(200000);
-	wait_for_vsync();
-
-	timeout(200000);
+    draw(PRESX, PRESY, P2X, P2Y, NULL);
+    timeout(200000);
     wait_for_vsync();
 
-	pixel_buffer_start = *(pixel_ctrl_ptr + 1);
-	draw(PRESX, PRESY, P2X, P2Y, p2_spr);
-	timeout(200000);
-	wait_for_vsync();
+    timeout(200000);
+    wait_for_vsync();
 
-	pixel_buffer_start = *(pixel_ctrl_ptr + 1);
+    pixel_buffer_start = *(pixel_ctrl_ptr + 1);
+    draw(PRESX, PRESY, P2X, P2Y, p2_spr);
+    timeout(200000);
+    wait_for_vsync();
+
+    pixel_buffer_start = *(pixel_ctrl_ptr + 1);
 }
 
 //this thing moves first in the actual game, but i guess gamefreak programmers are just better than i am. time to resign.
@@ -203,7 +203,7 @@ void quick_attack(){
     draw(PRESX, PRESX, AX, AY, NULL);
     draw(PRESX, PRESY, P1X, P1Y, NULL);
     timeout(200000);
-	wait_for_vsync();
+    wait_for_vsync();
 	
     timeout(200000);
     wait_for_vsync();
@@ -211,7 +211,7 @@ void quick_attack(){
     pixel_buffer_start = *(pixel_ctrl_ptr + 1);
     draw(PRESX, PRESY, P1X, P1Y, p1_spr);
     timeout(200000);
-	wait_for_vsync();
+    wait_for_vsync();
 	
     pixel_buffer_start = *(pixel_ctrl_ptr + 1);
 }
@@ -223,13 +223,13 @@ void flamethrower(){
     draw(ARESX, ARESY, AX, AY, flame);
     wait_for_vsync();
 	
-	timeout(200000);
-	wait_for_vsync(); 
-	
-	timeout(200000);
+    timeout(200000);
     wait_for_vsync(); 
 	
-	timeout(200000);
+    timeout(200000);
+    wait_for_vsync(); 
+	
+    timeout(200000);
     wait_for_vsync(); 
 
     pixel_buffer_start = *(pixel_ctrl_ptr + 1); 
@@ -268,18 +268,18 @@ void nasty_plot(){
     draw(ARESX, ARESY, AX, AY, question);
     wait_for_vsync(); 
 	
-	timeout(200000);
+    timeout(200000);
     wait_for_vsync();
 	
-	timeout(200000);
+    timeout(200000);
     wait_for_vsync(); 
 	
     timeout(200000);
     wait_for_vsync();
 	
     timeout(200000);
-	draw(ARESX, ARESY, AX, AY, NULL);
-	wait_for_vsync();
+    draw(ARESX, ARESY, AX, AY, NULL);
+    wait_for_vsync();
 
     pixel_buffer_start = *(pixel_ctrl_ptr + 1);
 }
@@ -290,15 +290,15 @@ void swords_dance(){
     draw(ARESX, ARESY, AX, AY, sword);
     wait_for_vsync();
 	
-	timeout(200000);
-    wait_for_vsync();
-	
-	timeout(200000);
+    timeout(200000);
     wait_for_vsync();
 	
     timeout(200000);
-	draw(ARESX, ARESY, AX, AY, NULL);
-	wait_for_vsync();
+    wait_for_vsync();
+	
+    timeout(200000);
+    draw(ARESX, ARESY, AX, AY, NULL);
+    wait_for_vsync();
 
     pixel_buffer_start = *(pixel_ctrl_ptr + 1);
 }
