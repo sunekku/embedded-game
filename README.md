@@ -5,7 +5,7 @@ Miniature embedded RPG in C for the ARM Cortex-A9 processor on DE1-SoC. It's kin
 If you wanna try it out at the risk of incurring brain damage from the lameness of the game, you can emulate it on CPUlator. Just make sure to paste the contents of the sprite header into the file containing the executable, because CPUlator doesnt let you drop multiple files in. As DJ Benjammin would say, "That. Is not. Cool."
 
 So it's a useless game that isn't actually fun to play (I'm pretty sure it's rigged too), but just like Mihoyo, all the budget went into animation. The difference between
-Genshin Impact and this thing is that their animations are actually good, and my game actually runs correctly.
+Genshin Impact and this thing is that their animations are actually good, and my game actually runs correctly (no, I did not apply to Mihoyo for an internship, but thank you for the concern).
 
 **Instructions for people who are gutsy (and perhaps bored) enough to play the game:**
 
